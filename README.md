@@ -42,7 +42,7 @@ I used JavaScript to dynamically update the current day of the week and UTC time
 
 ### GitHub Hosting
 
-I hosted the web page on GitHub Pages, making it accessible via the URL: [https://github.com/YourmixJNR/HNG-Frontend-Task.git](https://github.com/YourmixJNR/HNG-Frontend-Task.git).
+I hosted the web page on GitHub Pages, making it accessible via the URL: [https://github.com/abstaina44/HNG-Frontend-Task.git](https://github.com/abstaina44/HNG-Frontend-Task.git).
 
 ### Testing
 
