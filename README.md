@@ -1,4 +1,4 @@
-# Frontend Intern Task
+# Frontend Intern Task.
 
 ## Table of Contents
 
@@ -63,7 +63,7 @@ I used JavaScript to dynamically update the current day of the week and UTC time
 
 ### GitHub Hosting
 
-I hosted the web page on GitHub Pages, making it accessible via the URL: [https://github.com/abstaina44/HNG-Frontend-Task.git](https://github.com/abstaina44/HNG-Frontend-Task.git).
+I hosted the web page on vercel, making it accessible via the URL: [https://verce.com/](https://hng-frontend-task-a53a8cewi-ephraims-projects-4f13f3e4.vercel.app/).
 
 ### Testing
 
