@@ -11,18 +11,39 @@
 
 ## Project Overview
 
-This repository contains my solution for the Frontend Intern Task. The task involved creating a web page using HTML, CSS, and JavaScript to display specific personal and real-time data attributes. Each required element had a specified `data-testid` attribute for easy identification and testing.
+This repository contains my solution for the Frontend Intern Task. The task involved creating a web page using HTML, CSS, and JavaScript.I created and host a simple single-page website outlining my goals for the next 2 years in the tech field.
+Each required element had a specified `data-testid` attribute for easy identification and testing.
 
 ## Task Description
 
 The task requirements were as follows:
 
-1. Display Slack Name prominently.
-2. Showcase the Slack profile picture with the Slack username as alt text.
-3. Indicate the current day of the week.
-4. Display the current UTC time in milliseconds.
-5. Mention the track (e.g., Frontend).
-6. Provide a clickable link to my GitHub repository.
+1. Display your Slack Display.
+Attribute: data-testid="slackDisplayName"
+
+2. Current Time in UTC:Display the current time in UTC.
+Attribute: data-testid="currentTimeUTC"
+Format: HH:MM:SS
+Example: 12:34:56
+Note: The time should be updated every second.
+
+3. Current Day of the week (e.g. Monday, friday):Display the current Day of the week.
+Attribute: data-testid="currentDayOfWeek"
+Example: Monday
+
+4.Slack Email:Display your Slack Email.
+Attribute: data-testid="slackEmail"
+Example: your.slack.email@slack.com
+
+5. Slack profile pictureDisplay your Slack Profile Picture
+Attribute: data-testid="slackProfilePicture"
+Example: https://example.com/your-profile-picture.png
+
+
+6. Add a link to hng.tech/learn.Attribute: data-testid="hngLink"
+Add a link to keyword.dogAttribute: data-testid="keywordLink"
+Add a link to scrapeanyweb.siteAttribute: data-testid="scrapeanywebLink" 
+
 
 ## Implementation
 
@@ -38,7 +59,7 @@ I applied CSS styling to enhance the visual appeal of the page. The styling incl
 
 ### JavaScript for Real-Time Data
 
-I used JavaScript to dynamically update the current day of the week and UTC time in milliseconds. I also added a function to handle errors, such as missing profile pictures or GitHub URLs.
+I used JavaScript to dynamically update the current day of the week and UTC time in milliseconds. I also added a function to handle errors, such as missing profile pictures or HNG URLs.
 
 ### GitHub Hosting
 
@@ -53,7 +74,7 @@ I tested the page thoroughly to ensure that all elements were displayed correctl
 Error handling was implemented to improve user experience:
 
 - **Missing Profile Picture**: If the Slack profile picture is missing, the code displays a default image and provides a default alt text for accessibility.
-- **Missing GitHub URL**: If the GitHub repository URL is not found, the code displays an error message and removes the link to prevent broken links.
+- **Missing HNG URL**: If the GitHub repository URL is not found, the code displays an error message and removes the link to prevent broken links.
 
 ## Testing
 
