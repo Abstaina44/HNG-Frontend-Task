@@ -1,4 +1,4 @@
-# Frontend Intern Task README
+# Frontend Intern Task
 
 ## Table of Contents
 
